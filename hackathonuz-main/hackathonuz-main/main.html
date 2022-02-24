@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abdurakhmon Rashidov">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+/>
+    <link rel="stylesheet" href="main.css">
+<title>Barcha Tadbirlar</title>
+</head>
+
+<body>
+    <div id="fullpage">
+        <!-- {% for event in object_list %} -->
+        <div class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-5">
+                        <div class="title is-size-1 has-text-light">Hackaton Ozbekiston Andijon</div>
+                        <ul class="mt-5">
+                            <li class="title is-size-5 has-text-light">
+                                <i class="fas fa-earth has-text-link"></i> Ozbekiston Andijon shahri
+                            </li>
+                            <li class="title is-size-5 has-text-light">
+                                <i class="fas fa-clock has-text-link"></i> Soat 13:00 dan 16:00 gacha
+                            </li>
+                            <li class="title is-size-5 has-text-light">
+                                <i class="fas fa-warning has-text-link"></i> Passport bolishi shart
+                            </li>
+                        </ul>
+                        <div class="subtitle is-size-5 mt-3 has-text-light">Ro'yhatdan o'tganlar soni : +56</div>
+                        <a href="#" class="button mt-5 has-text-light has-background-warning">Ro'yhatdan o'tish</a>
+                    </div>
+                    <div class="column is-7">
+                        <img src="https://picsum.photos/seed/picsum/800/400">
+                        <nav class="breadcrumb box p-3" aria-label="breadcrumbs">
+                            <ul>
+                                <li class="is-active is-size-6 ">
+                                    <a href="#" aria-current="page">Ulashish</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-facebook is-size-5"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-instagram is-size-5"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-telegram is-size-5"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-twitter is-size-5"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="section">
+
+
+        </div>
+        <!-- {% endfor %} -->
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        const page = new fullpage('#fullpage', {
+            //options here
+            autoScrolling: true,
+            css3: true,
+            scrollingSpeed: 700,
+            scrollHorizontally: true,
+            controlArrows: true,
+            sectionsColor: ["#242631", "#FCBB37"],
+            paddingTop: '3em',
+            paddingBottom: '10px',
+        });
+    </script>
+</body>
+
+</html>

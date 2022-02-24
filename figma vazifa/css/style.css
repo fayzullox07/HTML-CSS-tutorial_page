@@ -1,0 +1,205 @@
+z
+
+#card{
+  height: 37vh;
+  background-color: white;
+  
+}
+
+#card a{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 20px;
+  color: #2A2A2A;
+}
+
+.const{
+  margin: 0px 80px 0 80px;
+}
+
+
+.logo{
+
+left: 90px;
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+line-height: 21px;
+color: rgba(26, 26, 26, 0.71);
+}
+
+
+#logo_img{
+  left: 21.45%;
+  right: 27.56%;
+  top: 12%;
+  bottom: 45.43%;
+}
+
+#logo_imgs{
+  left: 21%;
+  right: 27.56%;
+  top: 10.77%;
+  bottom: 45.43%;
+}
+
+#card ul li{
+  margin: 0 5px;
+  display: inline-block;
+} 
+
+.text_1{
+  left: 30%;
+  top: 11%;
+}
+
+.text_2{
+  left: 35%;
+  top: 11%;  
+}
+
+.text_3{
+  left: 42%;
+  top: 11%;  
+}
+
+.text_4{
+  left: 49%;
+  top: 11%;  
+}
+
+
+.text_5{
+  left: 70%;
+  top: 11%;  
+}
+
+.text_6{
+  left: 76%;
+  top: 11%;  
+}
+
+.text_7{
+  left: 83%;
+  top: 11%;  
+}
+
+#icon{
+  left: 89%;
+  top: 10.75%;  
+}
+
+.text_10{
+  left: 75.30%;
+  top: 11%;  
+  height: 50px;
+}
+.text_11{
+  left: 87.50%;
+  top: 11%;  
+}
+
+.text_12{
+  left: 91.57%;
+  top: 11%;  
+}
+
+.block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -80px;
+  left: 68.50%;
+width: 325px;
+height: 63px;
+background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+border-radius: 0px;
+}
+
+.a-block{
+  width: 310px;
+height: 43px;
+left: 1.70%;
+right: 3.12%;
+top: 10px;
+background: #FFFFFF;
+border: 1px solid #DDD
+}
+
+
+
+#imgMain{
+  height: 600px;
+ border-radius: 0px;
+}
+
+.img-text{
+top: 130%;
+right: 70%;
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+
+}
+
+.img-text2{
+  top: 140%;
+  right: 88%;
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+line-height: 22px;
+color: #FFFFFF;  
+  }
+
+
+  #row{
+    position: absolute;
+    left: 24%;
+    margin: 0px 5px 0px 5px;
+  }
+
+  #row ul li .active{
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+color: #1A1A1A;
+  }
+
+  #row ul li .act{
+opacity: 0.4;
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+color: #1A1A1A;
+  }
+
+.nopadding{
+  padding: 0px 140px 0 150px;
+  }
+  
+@media(max-width: 500px){
+  .nopadding{
+    padding: 0px 50px 0 150px;
+    }  
+    .block{
+      display: none;
+    }
+    .a-block{
+      display: none;
+    }
+}
+
+@media(max-width: 815px){
+  .m6{
+    padding: 0 20px 0 20px;
+  }
+}
